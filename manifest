@@ -1,0 +1,15 @@
+: 1
+name: simple
+version: 0.1.0-a.0.z
+summary: simple C++ executable
+license: other: proprietary ; Not free/open source.
+description-file: README.md
+url: https://example.org/simple
+email: mjklaim@gmail.com
+#build-error-email: mjklaim@gmail.com
+depends: * build2 >= 0.13.0
+depends: * bpkg >= 0.13.0
+#depends: libhello ^1.0.0
+
+requires: c++14 | c++17 | c++20
+builds: default experimental          ; Only modern compilers are supported.

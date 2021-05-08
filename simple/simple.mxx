@@ -1,0 +1,12 @@
+module;
+
+#include <string>
+
+export module simple;
+
+namespace simple {
+
+    export std::string some_func() {  return "kikoolol" ; }
+
+
+}
